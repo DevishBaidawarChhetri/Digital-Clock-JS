@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #1d1b1b;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#holder{
+    width: 289px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -137px 0 0 -128px;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #1d1b1b;
+    -webkit-box-reflect: below 5px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(55%, transparent), to(rgba(255, 255, 255, 0.37)));
+}
+.year-holder{
+    color: #fff;
+    background-color: #25cc6a;
+    font-size: 25px;
+    padding: 15px 0;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    
+}
+.year-holder #years{
+    font-weight: bold;
+}
+.time{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.time-holder{
+    margin-left: 1.5px;
+    overflow: hidden;
+}
+.time #hours,
+.time #minutes,
+.time #seconds,
+.time #period{
+    color: #fff;
+    background-color: #25cc6a;
+    float: left;
+    font-size: 18px;
+    margin-right: 4px;
+    padding: 20px 20px;
+    border-radius: 4px;
+}
+.time #period{
+    margin-right: 0;
+}
+.day-holder{
+    clear: both;
+    color: #fff;
+    background-color: #25cc6a;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+.month-date-holder #months,
+.month-date-holder #dates{
+    color: #fff;
+    background-color: #2196f3;
+    font-size: 19px;
+    padding: 20px 0;
+    float: left;
+    
+    border-radius: 4px;
+}
+.month-date-holder #months{
+    width: 69%;
+    margin-right: 2.5px;
+}
+.month-date-holder #dates{
+    width: 29%;
+    margin-left: 2.5px;
+}
