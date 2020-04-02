@@ -13,13 +13,18 @@ function time(){
     var period = "AM";
 
     // AM / PM format editor
+    if(hours == 12){
+        period = "PM";
+    }
     if(hours == 0){
         hours = 12;
-    }if(hours > 12){
+        period = "AM";
+    }
+    if(hours > 12){
         hours = hours - 12;
         period = "PM";
     }
-    
+
     // To keep 0 in front of single digit number
     if(hours < 10){
         hours = "0"+ hours;
