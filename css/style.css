@@ -33,7 +33,6 @@ body{
     padding: 15px 0;
     margin-bottom: 5px;
     border-radius: 4px;
-    
 }
 .year-holder #years{
     font-weight: bold;
@@ -43,18 +42,19 @@ body{
     margin-bottom: 5px;
 }
 .time-holder{
-    margin-left: 1.5px;
+    width: 100%;
     overflow: hidden;
 }
 .time #hours,
 .time #minutes,
 .time #seconds,
 .time #period{
+    width: 23.8%;
     color: #fff;
     background-color: #25cc6a;
     float: left;
     font-size: 18px;
-    margin-right: 4px;
+    margin-right: 1.5%;
     padding: 20px 20px;
     border-radius: 4px;
 }
